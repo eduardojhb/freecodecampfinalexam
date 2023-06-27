@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+}
+header {
+    background-color: rgb(240, 6, 104);
+    padding: 1rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+header a {
+    padding: 1rem;
+    text-decoration: none;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    transition: 0.35s ease;
+}
+
+header a:hover{
+    color: black;
+    background-color: whitesmoke;
+    border-radius: 50%;
+   
+}
+.hola{
+    background-image: linear-gradient(rgb(31, 31, 31),rgb(35, 32, 32));
+    padding: 2rem;
+
+}
+h1{
+    color: white;
+    text-align: center;
+}
+#profile-link{
+    text-decoration: none;
+    color: antiquewhite;
+    transition: 0.5s ease;
+    display: block;
+    margin: 0 auto;
+    width: fit-content; 
+}
+#profile-link:hover{
+    color: rgb(240, 6, 104);;
+}
+section{
+    background-color: rgba(5, 99, 182, 0.64);
+    padding: 1rem;
+}
+
+h2{
+    text-align: center;
+    color: white;
+}
+
+#projects {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  #projects article {
+    margin: 1rem 0;
+  }
+  
+  #projects img {
+    width: 300px;
+    height: 300px;
+  }
+
+  section p{
+    background-color: rgba(2, 2, 74, 0.9);
+    padding: 1.3rem;
+    color: whitesmoke;
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+    transition: 0.3s ease;
+  }
+
+  section p:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+  }
+
+  #all{
+    text-decoration: none;
+    color: whitesmoke;
+    background-color: rgba(2, 2, 74, 0.9);
+    padding: 1.3rem;
+    border-radius: 10px;
+    transition: 0.5s ease;
+  }
+
+  #all:hover{
+    color: rgba(2, 2, 74, 0.9);;
+    background-color: whitesmoke;
+    padding: 1.3rem;
+    border-radius: 10px;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+  }
+
+  .prefinal{
+    background-image: linear-gradient(rgb(31, 31, 31),rgb(35, 32, 32));
+    padding: 1.5rem;
+    color: whitesmoke;
+    margin-left: auto;
+  }
+
+  .prefinal a{
+    text-decoration: none;
+    color: whitesmoke;
+    transition: 0.3s ease;
+    list-style: none;
+  text-align: right;
+  }
+
+  .prefinal a:hover{
+     color: rgb(240, 6, 104);;
+  }
+  ul{
+    margin-left: auto;
+    list-style: none;
+  text-align: right;
+  padding: 3px;
+  }
+  footer{
+    background-color: rgb(240, 6, 104);
+    padding: 1rem;
+    color: rgb(178, 170, 170);
+
+  }
+  footer p{
+    transition: 0.4s ease;
+  }
+  footer p:hover{
+    color: antiquewhite;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+  }
+
+  footer a{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s ease;
+  }
+  footer a:hover{
+    color: antiquewhite;
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+  }
+
